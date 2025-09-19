@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="api.css">
 </head>
 <body>
-    <h1 class="heading">Product List</h1>
+    <header style="position: sticky; background-color: red; top: 0; z-index: 1;">
+        <nav>
+            <div class="title-container">
+                <h1>Lamide Store</h1>
+                <div class="list-container">
+                    <ul>
+                        <li>Home</li>
+                        <li>Contact</li>
+                        <li>Features</li>
+                        <li>Products</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <span class="menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="img-container">
+        <!-- <img class="shopping-image" src="./assets/shopping.jpeg" alt="shopping-img-background"> -->
+        <h1>welcome</h1>
+        <p>Welcome to Lamide Store! Here you'll find a curated selection of quality
+            products made just for you. Browse freely, discover
+            your favorites, and enjoy, a seamless shopping experience
+            crafted with care.
+        </p>
+    </div>
+    <h1 class="heading">Our Product List</h1>
     <div id="product-container"></div>
 
 

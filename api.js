@@ -9,7 +9,7 @@ const fetchProduct = () => {
         let limitedProducts = products.slice(0,6);
 
 
-        products.forEach((p) => {
+            products.forEach((p) => {
             const productEl = document.createElement("div");
             productEl.classList.add("productCard");
 
@@ -19,7 +19,7 @@ const fetchProduct = () => {
             <span>${p.price}</span>
             <div class="brand">${p.category}</div>
             <div class="btn">
-            <button>Add to Cart</button>
+            <button>Shop Now</button>
             </div>
             `;
             

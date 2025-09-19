@@ -1,6 +1,65 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: green;
+    height: 30px;
+    top: 0;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "lato", sans-serif;
+}
+
+.list-container ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.list-container ul li {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.list-container ul li:hover {
+    transform: scale(1.04);
+    transition: all 0.3s ease;
+}
+
+.menu-btn {
+    display: none;
+}
+
+/* .img-container {
+    background-image: url(./assets/shopping.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container h1 {
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+.img-container p {
+    padding: 5px 20px 20px 20px ;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+} */
 
 .heading {
     text-align: center;
@@ -10,6 +69,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+    padding: 20px;
 }
 
 .productCard {
@@ -86,4 +146,33 @@ body {
     #product-container {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
+
+    .list-container ul li {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .img-container {
+    background-image: url(./assets/shopping.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container h1 {
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+.img-container p {
+    padding: 5px 20px 20px 20px ;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+} 
+
+
 }
